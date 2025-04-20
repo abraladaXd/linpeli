@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP Fitness - Camisas Fitness de Luxo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/api/placeholder/150/80" alt="LP Fitness Logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#colecao">Coleção</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#busca"><i class="fas fa-search"></i></a>
+                <a href="#carrinho"><i class="fas fa-shopping-cart"></i> <span class="cart-count">0</span></a>
+                <a href="#conta"><i class="fas fa-user"></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Banner Principal -->
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>ELEVATE YOUR FITNESS</h1>
+                <p>Camisas premium que combinam performance e estilo.</p>
+                <a href="#colecao" class="btn-primary">VER COLEÇÃO</a>
+            </div>
+        </section>
+
+        <!-- Seção de Destaque -->
+        <section class="features">
+            <div class="feature">
+                <i class="fas fa-tshirt"></i>
+                <h3>Material Premium</h3>
+                <p>Tecidos de alta performance que respiram com você.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-cut"></i>
+                <h3>Design Exclusivo</h3>
+                <p>Cortes modernos pensados para destacar sua forma física.</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>Envio Grátis</h3>
+                <p>Para compras acima de R$300 em todo o Brasil.</p>
+            </div>
+        </section>
+
+        <!-- Coleção de Produtos -->
+        <section id="colecao" class="collection">
+            <h2>NOSSA COLEÇÃO</h2>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="treino">Treino</button>
+                <button class="filter-btn" data-filter="corrida">Corrida</button>
+                <button class="filter-btn" data-filter="casual">Casual</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Produto 1 -->
+                <div class="product-card" data-category="treino">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/400" alt="Camisa Performance">
+                        <div class="product-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="overlay-btn add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisa Performance Pro</h3>
+                        <p class="product-price">R$ 189,90</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background-color: #000;"></span>
+                            <span class="color-option" style="background-color: #fff;"></span>
+                            <span class="color-option" style="background-color: #444;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 2 -->
+                <div class="product-card" data-category="corrida">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/400" alt="Camisa Corrida">
+                        <div class="product-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="overlay-btn add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisa Ultralight Run</h3>
+                        <p class="product-price">R$ 219,90</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background-color: #3498db;"></span>
+                            <span class="color-option" style="background-color: #e74c3c;"></span>
+                            <span class="color-option" style="background-color: #2ecc71;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 3 -->
+                <div class="product-card" data-category="casual">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/400" alt="Camisa Casual">
+                        <div class="product-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="overlay-btn add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisa Lifestyle Elite</h3>
+                        <p class="product-price">R$ 169,90</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background-color: #34495e;"></span>
+                            <span class="color-option" style="background-color: #7f8c8d;"></span>
+                            <span class="color-option" style="background-color: #d35400;"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Produto 4 -->
+                <div class="product-card" data-category="treino">
+                    <div class="product-image">
+                        <img src="/api/placeholder/300/400" alt="Camisa Treino">
+                        <div class="product-overlay">
+                            <a href="#" class="overlay-btn"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="overlay-btn add-to-cart"><i class="fas fa-shopping-cart"></i></a>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Camisa Compression Max</h3>
+                        <p class="product-price">R$ 199,90</p>
+                        <div class="product-colors">
+                            <span class="color-option" style="background-color: #000;"></span>
+                            <span class="color-option" style="background-color: #c0392b;"></span>
+                            <span class="color-option" style="background-color: #2980b9;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#ver-mais" class="btn-secondary">VER MAIS PRODUTOS</a>
+        </section>
+
+        <!-- Sobre Nós -->
+        <section id="sobre" class="about">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>SOBRE A LP FITNESS</h2>
+                    <p>Nascemos da necessidade de unir o melhor da moda fitness com a qualidade que você merece. Nossa missão é oferecer peças que não apenas potencializam seu desempenho, mas também elevam seu estilo.</p>
+                    <p>Cada peça é meticulosamente desenvolvida com tecidos premium, tecnologia avançada e design exclusivo para garantir o máximo conforto e durabilidade durante seus treinos mais intensos.</p>
+                    <a href="#historia" class="btn-text">CONHEÇA NOSSA HISTÓRIA <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="about-image">
+                    <img src="/api/placeholder/500/600" alt="LP Fitness - Sobre Nós">
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+        <section id="depoimentos" class="testimonials">
+            <h2>O QUE DIZEM SOBRE NÓS</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As camisas da LP Fitness revolucionaram meus treinos. O conforto é incomparável e o design é simplesmente excepcional. Recomendo para qualquer atleta que busca performance e estilo."</p>
+                        <p class="testimonial-author">Ricardo M. - Fisiculturista</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Finalmente encontrei uma marca que entende o que é qualidade de verdade. Os tecidos são incríveis e a transpiração é mínima mesmo nos treinos mais intensos. Vale cada centavo!"</p>
+                        <p class="testimonial-author">Ana C. - Personal Trainer</p>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Uso as camisas da LP Fitness tanto para treinar quanto para o dia a dia. O design minimalista e elegante permite essa versatilidade. Já tenho 5 cores diferentes!"</p>
+                        <p class="testimonial-author">Carlos F. - Crossfitter</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testi-prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testi-dots">
+                    <span class="testi-dot active"></span>
+                    <span class="testi-dot"></span>
+                    <span class="testi-dot"></span>
+                </div>
+                <button class="testi-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div class="newsletter-content">
+                <h2>FIQUE POR DENTRO DAS NOVIDADES</h2>
+                <p>Inscreva-se em nossa newsletter e receba ofertas exclusivas, lançamentos e dicas de treino.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="btn-primary">ASSINAR</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column">
+                <img src="/api/placeholder/150/80" alt="LP Fitness Logo" class="footer-logo">
+                <p>Eleve seu treino com o melhor da moda fitness de luxo.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>LINKS RÁPIDOS</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#colecao">Coleção</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>ATENDIMENTO</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Política de Trocas</a></li>
+                    <li><a href="#">Rastreamento</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>CONTATO</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - São Paulo/SP</li>
+                    <li><i class="fas fa-phone"></i> (11) 99999-9999</li>
+                    <li><i class="fas fa-envelope"></i> contato@lpfitness.com.br</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LP Fitness. Todos os direitos reservados.</p>
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-pix"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal de Produto -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-product">
+                <div class="modal-product-image">
+                    <img src="/api/placeholder/500/600" alt="Product Image">
+                </div>
+                <div class="modal-product-details">
+                    <h2>Camisa Performance Pro</h2>
+                    <p class="modal-product-price">R$ 189,90</p>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(24 avaliações)</span>
+                    </div>
+                    <p class="product-description">Desenvolvida com tecnologia de ponta, a Camisa Performance Pro oferece o máximo em respirabilidade e conforto durante os treinos mais intensos. O tecido leve e elástico acompanha seus movimentos, enquanto o design minimalista garante um visual moderno e elegante.</p>
+                    
+                    <div class="product-options">
+                        <div class="option-group">
+                            <label>Cor:</label>
+                            <div class="color-options">
+                                <span class="color-option selected" style="background-color: #000;"></span>
+                                <span class="color-option" style="background-color: #fff;"></span>
+                                <span class="color-option" style="background-color: #444;"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label>Tamanho:</label>
+                            <div class="size-options">
+                                <button class="size-option">P</button>
+                                <button class="size-option selected">M</button>
+                                <button class="size-option">G</button>
+                                <button class="size-option">GG</button>
+                            </div>
+                        </div>
+                        
+                        <div class="option-group">
+                            <label>Quantidade:</label>
+                            <div class="quantity-selector">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="text" value="1" class="quantity-input">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="product-actions">
+                        <button class="btn-primary add-to-cart-btn"><i class="fas fa-shopping-cart"></i> ADICIONAR AO CARRINHO</button>
+                        <button class="btn-outline wishlist-btn"><i class="far fa-heart"></i></button>
+                    </div>
+                    
+                    <div class="product-meta">
+                        <p><strong>SKU:</strong> LP-PRO-01</p>
+                        <p><strong>Categoria:</strong> Treino</p>
+                        <p><strong>Material:</strong> 92% Poliamida, 8% Elastano</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Seu Carrinho</h3>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Seu carrinho está vazio</p>
+                <button class="btn-secondary">EXPLORAR PRODUTOS</button>
+            </div>
+            <!-- Cart items will be added here dynamically -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">R$ 0,00</span>
+            </div>
+            <button class="btn-primary checkout-btn">FINALIZAR COMPRA</button>
+        </div>
+    </div>
+    
+    <!-- Overlay Background -->
+    <div class="overlay"></div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
