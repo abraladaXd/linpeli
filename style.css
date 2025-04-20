@@ -402,11 +402,7 @@ input, button {
   width: 40px;
   height: 40px;
   background-color: var(--primary-color);
-  border-radius: 50%;.overlay-btn {
-    width: 40px;
-    height: 40px;
-    background-color: var(--primary-color);
-    border-radius: 50%;
+  border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -414,7 +410,7 @@ input, button {
     color: var(--light-text);
     transition: var(--transition);
 }
-}
+
 .overlay-btn:hover {
     background-color: #333;
     transform: translateY(-3px);
